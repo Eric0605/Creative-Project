@@ -1,0 +1,154 @@
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+p {
+	font-size: 25px;
+}
+
+li {
+	display: inline;
+	font-size: 30px;
+	margin: 5px;
+}
+
+body {
+	background-color: #424c4d;
+}
+
+.Peopleimages {
+	width: 45%;
+	display: inline;
+}
+
+#GreenLight {
+	height: 5%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+figure {
+	display: inline-block;
+	width: 40%;
+	height: 200px;
+}
+
+figcaption {
+	font-size: 50px;
+}
+
+.UnknownPerson {
+	width: 45%;
+}
+
+#Indipendence {
+	width: 48%;
+	height: 200px;
+	display: inline;
+	float: left;
+}
+
+.header{
+  background-repeat: no-repeat;
+	background-size: auto;
+}
+#headerHome {
+	background-image: url(../images/cover.jpg);
+	background-position: right;
+}
+
+#headerDream {
+	background-image: url(../images/AmericanDream.jpeg);
+}
+
+#NickHeader {
+	background-image: url(../images/disappointment.jpeg);
+	background-position: right;
+}
+
+#GatsbyHeader {
+	background-image: url(../images/Gatsby2.jpg);
+	background-position: right;
+}
+
+#DasiyHeader{
+  background-image: url(../images/daisy2.jpg);
+	background-position: right;
+  background-size: contain;
+}
+
+#TomHeader{
+	background-image: url(../images/corruptedMan.jpg);
+	background-position: right;
+	background-size: contain;
+}
+
+.LightIN {
+	width: 415px;
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#LightInNick {
+	filter: brightness(30%);
+}
+
+#LightInGastby {
+	filter: brightness(10%);
+}
+
+@media only screen and (max-width: 850px) {
+	figure {
+		display: inline-block;
+		width: 38%;
+		height: 200px;
+	}
+	figcaption {
+		font-size: 60px;
+	}
+	.UnknownPerson {
+		width: 38%;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	figure {
+		display: inline-block;
+		width: 35%;
+		height: 200px;
+	}
+	figcaption {
+		font-size: 75px;
+	}
+	.UnknownPerson {
+		width: 35%;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	figure {
+		width: 100px;
+		height: 100px;
+	}
+	figcaption {
+		font-size: 100px;
+	}
+	#GreenLight {
+		height: 200px;
+		width: 100%;
+		margin-left: 0%;
+		margin-right: 0%;
+	}
+	.UnknownPerson {
+		width: 300px;
+		height: 350px;
+	}
+	.Peopleimages {
+		display: block;
+	}
+}
